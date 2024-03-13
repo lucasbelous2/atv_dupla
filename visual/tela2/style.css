@@ -1,0 +1,23 @@
+section {
+    background-color: #d9e9fd;
+    margin-left: 2%;
+    border-radius: 4%;
+    height: 300px;
+}
+
+body { 
+    padding: 1%;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center
+}
+
+#bemVindo {
+    width: 70%;
+}
+
+#statusPedidos {
+    width: 30%;
+    
+}
