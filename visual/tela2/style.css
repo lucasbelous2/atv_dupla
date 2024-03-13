@@ -1,23 +1,62 @@
-section {
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+
+button {
+    background-color: #48abe0;
+    color: white;
+    border: none;
+    padding: 5px;
+    height: 30px;
+    width: 90px;
+    box-shadow: 0 2px 4px darkslategray;
+    border-radius: 20%;
+}
+
+#menu {
+}
+
+.menuLongo, .menuMini {
     background-color: #d9e9fd;
     margin-left: 2%;
     border-radius: 4%;
-    height: 300px;
-}
-
-body { 
-    padding: 1%;
+    height: 280px;
     display: flex;
-    width: 80%;
-    margin: 0 auto;
-    text-align: center
+    box-sizing: border-box;
 }
 
-#bemVindo {
+.menuLongo {
     width: 70%;
 }
 
-#statusPedidos {
+.menuMini {
     width: 30%;
-    
+}
+
+.linha { 
+    display: flex;
+}
+
+body {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#robo {
+    img {
+        width:280px;
+    }
+}
+
+#bemVindo {
+    h1{
+        color: #0533a5;
+        font-size: 30px;
+    }
+}
+
+#apresentacao {
+    width:25%
 }
