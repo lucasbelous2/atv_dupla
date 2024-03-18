@@ -31,8 +31,43 @@
             </section>
 
             <section id="statusPedidos" class="menuMini">
-                <h1>Status de pedidos recentes</h1>
-                <h2></h2>
+                <div class="header">
+                    <h1>Status de pedidos recentes</h1>
+                    <button>Ver todos pedidos <span id="iconeHeader">+</span></button>
+                </div>
+                <div class="tabelaHeader">
+                    <p>N Req</p>
+                    <p>Data</p>
+                    <p>Valor</p>
+                    <p>Status</p>
+                </div>
+                <hr>
+                <section class="tabela">
+                    <div class="itemTabela">
+                        
+                        <p><strong>#125</strong></p>
+                        <p><strong>20/04/2020</strong></p>
+                        <p><strong>R$ 1.2500,50</strong></p>
+                        
+                        <span id="statusVerde">Processado</span>
+                    </div>
+                    <div class="itemTabela">
+                        
+                        <p><strong>#125</strong></p>
+                        <p><strong>20/04/2020</strong></p>
+                        <p><strong>R$ 1.2500,50</strong></p>
+                        
+                        <span id="statusVermelho">Erro</span>
+                    </div>
+                    <div class="itemTabela">
+                        
+                        <p><strong>#125</strong></p>
+                        <p><strong>20/04/2020</strong></p>
+                        <p><strong>R$ 1.2500,50</strong></p>
+                        
+                        <span id="statusAmarelo">Ruim</span>
+                    </div>
+                </section>
             </section>
         </section>
 
@@ -40,7 +75,10 @@
 
         <section class="linha">
             <section id="recomendacoesCompras" class="menuLongo">
-                <h1>Baseado nas últimas compras</h1>
+                <div class="header">
+                    <h1>Baseado em suas ultimas compras</h1>
+                    <button>Ver todas as recomendacoes <span id="iconeHeader">+</span></button>
+                </div>
                 <div id="itensRecomendados">
                     <div class="item">
                         <img src="../../visual/imagens/robo.png" alt="robo">
@@ -70,7 +108,29 @@
             </section>
 
             <section id="notificacoes" class="menuMini">
-                <p>a</p>
+                <div class="header">
+                    <h1>Mensagens e alertas</h1>
+                    <button>Ver todas mensagens <span id="iconeHeader">+</span></button>
+                </div>
+                <div class="notificacoes">
+                    <div class="mensagem">
+                        <div class="icone">
+                            <img src="../../visual/imagens/robo.png" alt="robo">
+                        </div>
+                        <div class="texto">
+                            <h1>Joao da Silva</h1>
+                            <p>Verificar o nao sei o que</p>
+                        </div>
+                    </div>
+                    <div class="mensagem">
+                        <div class="icone">
+                            <img src="../../visual/imagens/robo.png" alt="robo">
+                        </div>
+                        <div class="texto">
+                            <h1>Joao da Silva</h1>
+                            <p>Verificar o nao sei o que</p>
+                        </div>
+                    </div>
             </section>
         </section>
 
@@ -78,20 +138,54 @@
 
         <section class="linha">
             <section id="statusRequisicoes" class="menuLongo">
-                <h1>Status das últimas requisicoes</h1>
+                <div class="header">
+                    <h1>Status das últimas requisicoes</h1>
+                    <button>Ver todos processos <span id="iconeHeader">+</span></button>
+                </div>
                 <div class="timeline">
                     <h1>Pedido n 10040</h1>
+                    <!-- <div class="linhaDoTempo">
+                        <hr>
+                    <p>a</p>
+
+                    </div> -->
+                    
                 </div>
                 <div class="timeline">
-                    <p>a</p>
+                    <h1>Pedido n 10041</h1>
                 </div>
                 <div class="timeline">
-                    <p>a</p>
+                    <h1>Pedido n 10042</h1>
                 </div>
             </section>
 
             <section id="historicoTransacoes" class="menuMini">
-                <p>a</p>
+                <div class="header">
+                    <h1>Ultimas transacoes e pedidos</h1>
+                    <button>Ver todas transacoes <span id="iconeHeader">+</span></button>
+                </div>
+                <div id="historicoItems">
+                    <div class="item">
+                        <img src="../../visual/imagens/robo.png" alt="robo">
+                        <span class="legenda">Robo</span>
+                    </div>
+                    <div class="item">
+                        <img src="../../visual/imagens/robo.png" alt="robo">
+                        <span class="legenda">Robo</span>
+                    </div>
+                    <div class="item">
+                        <img src="../../visual/imagens/robo.png" alt="robo">
+                        <span class="legenda">Robo</span>
+                    </div>
+                    <div class="item">
+                        <img src="../../visual/imagens/robo.png" alt="robo">
+                        <span class="legenda">Robo</span>
+                    </div>
+                    <div class="item">
+                        <img src="../../visual/imagens/robo.png" alt="robo">
+                        <span class="legenda">Robo</span>
+                    </div>
+                </div>
             </section>
         </section>
     </body>

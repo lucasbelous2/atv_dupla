@@ -3,6 +3,67 @@ html {
     font-size:20px;
 }
 
+#statusPedidos {
+    display:block;
+}
+
+#iconeHeader {
+    background-color: white;
+    color: #264cb2;
+    border: none;
+    padding: 5px;
+    height: 20%;
+    width: 150px;
+    box-shadow: 0 2px 4px darkslategray;
+    border-radius: 20px;
+}
+
+.tabelaHeader {
+    display:flex;
+    gap: 18%;
+}
+
+#notificacoes{
+    display:block;
+}
+
+.linhaDoTempo {
+    display:inline-flexbox;
+}
+
+.header {
+    display:flex;
+    color:#264cb2;
+    button {
+        all: unset;
+        margin-left: auto;
+        font-size: 80%;
+    }
+    
+}
+
+.icone{
+    img {
+        width: 100px;
+    }
+    width:20%;
+}
+
+.texto {
+    display:block;
+}
+
+.mensagem {
+    background-color: white;
+    display:flex;
+    border-radius: 20px;
+    width: 98%;
+}
+
+#tabela {
+    
+}
+
 .item {
     vertical-align: top;
     display: inline-block;
@@ -16,7 +77,44 @@ html {
     border-radius: 20px;
 }
 
+.itemTabela {
+    p{
+        font-size: 15px;
+    }
+    background-color: white;
+    width:98%;
+    height:40px;   
+    border-radius: 20px;
+    display:flex;
+    gap:8%;
+}
+
+#statusVerde,#statusVermelho,#statusAmarelo { 
+    border-radius: 20px;
+    font-size:15px;
+    margin-left: auto;
+    width:23%;
+    text-align: center;
+    color:white;
+}
+
+#statusVerde {
+    background-color: green;
+}
+
+#statusVermelho {
+    background-color: red;
+}
+
+#statusAmarelo {
+    background-color: yellow;
+}
+
 .legenda {
+    display: block;
+}
+
+#historicoTransacoes {
     display: block;
 }
 
@@ -58,7 +156,7 @@ button {
     display:inline-block;
 }
 
-#itensRecomendados {
+#itensRecomendados, #historicoItems {
     margin-left: 4%;
 }
 
